@@ -5,12 +5,12 @@ function dlog(s) {
 }
 
 if (window == top) {
-    bar = 9;
+    bar = 94;
     dlog('dirty');
     t = $('<div style="position: fixed; height: 144px; right: 200px; bottom: 0px;" id="programmer_holder"><a href="http://gg.ly/t3xhIY" target="_blank"><img border="0" style="display:none;" id="programmer" src="https://harperreed.org/brandon.png"   width="106" height="144"/></a></div>');
     $('body').append(t);
 
-    show = Math.floor(Math.random()*11);
+    show = Math.floor(Math.random()*100);
     dlog("Brandon likelyhood for display (must be above "+bar+"): "+show);
     
     if (show > bar){
