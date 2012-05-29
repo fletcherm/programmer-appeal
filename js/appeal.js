@@ -1,11 +1,11 @@
-var debug = false;
+var debug = true;
 function dlog(s) {
   if( debug )
     console.log( s );
 }
 
 if (window == top) {
-    bar = 94;
+    bar = 98;
     dlog('dirty');
     t = $('<div style="position: fixed; height: 144px; right: 200px; bottom: 0px;" id="programmer_holder"><a href="http://gg.ly/t3xhIY" target="_blank"><img border="0" style="display:none;" id="programmer" src="https://harperreed.org/brandon.png"   width="106" height="144"/></a></div>');
     $('body').append(t);
